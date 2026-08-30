@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#2DD4BF"/>
+  <text x="24" y="42" font-family="'IBM Plex Mono', 'DejaVu Sans Mono', monospace"
+        font-weight="700" font-size="26" fill="#0D1017" text-anchor="middle">AR</text>
+  <circle cx="49" cy="47" r="4.5" fill="#F2B705"/>
+</svg>

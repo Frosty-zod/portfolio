@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Abhishek Rawat — Portfolio</title>
+<meta name="description" content="Abhishek Rawat — CSE undergrad building full-stack web apps and data dashboards." />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="alternate icon" href="favicon.ico" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="grid-field" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">AR<span class="logo-dot">.</span></a>
+
+    <nav class="site-nav" id="site-nav">
+      <a href="#about">about</a>
+      <a href="#education">education</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <div class="header-controls">
+      <label class="theme-switch" title="Toggle light / dark mode">
+        <input type="checkbox" id="theme-toggle" aria-label="Toggle color theme" />
+        <span class="switch-track">
+          <span class="switch-label switch-label--dark">DARK</span>
+          <span class="switch-label switch-label--light">LIGHT</span>
+          <span class="switch-thumb"></span>
+        </span>
+      </label>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <p class="eyebrow"><svg class="eyebrow-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="16" height="14" rx="2"/><path d="M5.5 8l3 2-3 2"/><line x1="10.5" y1="12" x2="14.5" y2="12"/></svg>whoami</p>
+    <h1 class="hero-name">Abhishek&nbsp;Rawat</h1>
+    <p class="hero-role">CSE Undergrad <span class="pipe">|</span> Web &amp; Data Enthusiast</p>
+    <p class="hero-line">
+      <span class="prompt">$</span>
+      <span id="typed-line" class="typed-line"></span><span class="cursor" aria-hidden="true"></span>
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View projects</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section wrap reveal">
+    <p class="eyebrow"><svg class="eyebrow-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="6.5" r="3"/><path d="M4 17c0-3.3 2.7-6 6-6s6 2.7 6 6"/></svg>about</p>
+    <h2 class="section-title">A bit more about me</h2>
+    <div class="about-grid">
+      <p class="about-copy">
+        I'm a 3rd-year CSE student who likes building stuff that actually works. I'm into
+        full-stack web development — HTML, CSS, Bootstrap, JavaScript, PHP, SQL, React —
+        and lately I've been getting into data analytics with Power BI and Python.
+        Always down to pick up a new tool if it helps me ship something.
+      </p>
+      <dl class="fact-strip">
+        <div class="fact"><dt>Year</dt><dd>3rd</dd></div>
+        <div class="fact"><dt>Track</dt><dd>CSE</dd></div>
+        <div class="fact"><dt>Building</dt><dd>Web + Data</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section wrap reveal">
+    <p class="eyebrow"><svg class="eyebrow-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7.5l8-3.5 8 3.5-8 3.5-8-3.5z"/><path d="M6 9.3v3.7c0 1.1 1.8 2 4 2s4-.9 4-2V9.3"/><path d="M17 8v4.2"/></svg>education</p>
+    <h2 class="section-title">Education &amp; certifications</h2>
+
+    <div class="education-card">
+      <h3>B.Tech, Computer Science &amp; Engineering</h3>
+      <p class="education-meta">Uttaranchal University <span class="pipe">·</span> 2024 – 2028</p>
+      <p class="education-coursework"><span class="coursework-label">Relevant coursework</span> Design and Analysis of Algorithms (DAA), Discrete Mathematics, Object-Oriented Programming, Database Management Systems</p>
+    </div>
+
+    <ul class="cert-list">
+      <li class="cert-item">
+        <div class="cert-top">
+          <span class="cert-title">Python Developer Intern</span>
+          <a class="cert-link" href="certificates/python-developer-intern-certificate.pdf" target="_blank" rel="noopener">View certificate →</a>
+        </div>
+        <span class="cert-issuer">Codec Technologies Pvt. Ltd. <span class="pipe">·</span> Jun–Jul 2025 <span class="pipe">·</span> AICTE &amp; ICAC approved</span>
+      </li>
+      <li class="cert-item">
+        <div class="cert-top">
+          <span class="cert-title">Power BI for Beginners</span>
+          <a class="cert-link" href="certificates/power-bi-for-beginners-certificate.pdf" target="_blank" rel="noopener">View certificate →</a>
+        </div>
+        <span class="cert-issuer">Aug 2026 <span class="pipe">·</span> Certificate #10607920</span>
+      </li>
+      <li class="cert-item">
+        <div class="cert-top">
+          <span class="cert-title">Introduction to Generative AI</span>
+          <a class="cert-link" href="certificates/introduction-to-generative-ai-certificate.pdf" target="_blank" rel="noopener">View certificate →</a>
+        </div>
+        <span class="cert-issuer">Jul 2026 <span class="pipe">·</span> Certificate #10445680</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section wrap reveal">
+    <p class="eyebrow"><svg class="eyebrow-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="17" y2="6"/><circle cx="12" cy="6" r="1.6"/><line x1="3" y1="10.5" x2="17" y2="10.5"/><circle cx="7" cy="10.5" r="1.6"/><line x1="3" y1="15" x2="17" y2="15"/><circle cx="14" cy="15" r="1.6"/></svg>skills</p>
+    <h2 class="section-title">What I work with</h2>
+
+    <div class="skill-panels">
+      <div class="skill-panel">
+        <h3 class="skill-panel-title"><span class="dot dot-teal"></span>Web Development</h3>
+        <ul class="chip-list">
+          <li class="chip">HTML</li>
+          <li class="chip">CSS</li>
+          <li class="chip">Bootstrap</li>
+          <li class="chip">JavaScript</li>
+          <li class="chip">React</li>
+        </ul>
+      </div>
+
+      <div class="skill-panel">
+        <h3 class="skill-panel-title"><span class="dot dot-gold"></span>Backend &amp; Data</h3>
+        <ul class="chip-list">
+          <li class="chip">PHP</li>
+          <li class="chip">SQL (MySQL)</li>
+          <li class="chip">Python</li>
+          <li class="chip">Power BI (DAX)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section wrap reveal">
+    <p class="eyebrow"><svg class="eyebrow-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 5.8c0-.8.6-1.4 1.4-1.4h3.8l1.6 2H16c.8 0 1.5.6 1.5 1.4v7.1c0 .8-.7 1.4-1.5 1.4H4c-.8 0-1.5-.6-1.5-1.4z"/></svg>projects</p>
+    <h2 class="section-title">Things I've built</h2>
+
+    <div class="project-grid">
+
+      <article class="project-card accent-gold">
+        <div class="project-card-body">
+          <h3>Sales Analytics Dashboard</h3>
+          <p>Flipkart-style sales dashboard built on a 9,800-record Kaggle Superstore dataset spanning 2015–2018 across 49 U.S. states — custom DAX measures and KPI cards tracking $2.26M in total sales.</p>
+          <ul class="tag-list">
+            <li>Power BI</li>
+            <li>DAX</li>
+          </ul>
+          <a href="https://github.com/Frosty-zod/flipkart-sales-dashboard" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project-card accent-teal">
+        <div class="project-card-body">
+          <h3>Python Internship Projects</h3>
+          <p>Three mini-projects — CLI calculator, password generator, contact book — built during a Python Developer internship at Codec Technologies.</p>
+          <ul class="tag-list">
+            <li>Python</li>
+            <li>OOP</li>
+            <li>File Handling</li>
+          </ul>
+          <a href="https://github.com/Frosty-zod/Codec-Technologies-Projects" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section wrap reveal">
+    <p class="eyebrow"><svg class="eyebrow-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.8" width="15" height="10.4" rx="1.5"/><path d="M3 5.8l7 5.2 7-5.2"/></svg>contact</p>
+    <h2 class="section-title">Let's build something</h2>
+    <p class="contact-lead">Open to internships, collabs, or just talking shop about data and web dev.</p>
+
+    <div class="contact-row">
+      <button class="contact-chip" id="copy-email" data-email="abhirawat489@gmail.com">
+        <span class="chip-label">Email</span>
+        <span class="chip-value">abhirawat489@gmail.com</span>
+        <span class="copy-hint" id="copy-hint">click to copy</span>
+      </button>
+
+      <a class="contact-chip" href="https://github.com/Frosty-zod" target="_blank" rel="noopener">
+        <span class="chip-label">GitHub</span>
+        <span class="chip-value">Frosty-zod</span>
+      </a>
+
+      <a class="contact-chip" href="https://www.linkedin.com/in/abhishek-rawat777" target="_blank" rel="noopener">
+        <span class="chip-label">LinkedIn</span>
+        <span class="chip-value">abhishek-rawat777</span>
+      </a>
+
+      <a class="contact-chip" href="resume.pdf" target="_blank" rel="noopener" download="Abhishek_Rawat_Resume.pdf">
+        <span class="chip-label">Resume</span>
+        <span class="chip-value">Download PDF</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Built with HTML, CSS &amp; JS — Abhishek Rawat © <span id="year"></span></span>
+    <span class="footer-note">theme choice is remembered on this device</span>
+  </div>
+</footer>
+
+<button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
