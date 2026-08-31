@@ -32,9 +32,10 @@ A personal portfolio site built with plain HTML, CSS, and JavaScript — no fram
 ├── style.css
 ├── script.js
 ├── resume.pdf
-├── python-developer-intern-certificate.pdf
-├── power-bi-for-beginners-certificate.pdf
-├── introduction-to-generative-ai-certificate.pdf
+├── certificates/
+│   ├── python-developer-intern-certificate.pdf
+│   ├── power-bi-for-beginners-certificate.pdf
+│   └── introduction-to-generative-ai-certificate.pdf
 ├── favicon.svg / favicon.ico / favicon-32.png / apple-touch-icon.png
 ├── portfolio-preview.webp
 └── LICENSE
