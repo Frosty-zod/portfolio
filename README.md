@@ -6,7 +6,7 @@ A personal portfolio site built with plain HTML, CSS, and JavaScript — no fram
 
 ## Live site
 
-(https://frosty-zod.github.io/portfolio/)
+https://frosty-zod.github.io/portfolio/
 
 ## Overview
 
