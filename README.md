@@ -4,8 +4,6 @@ A personal portfolio site built with plain HTML, CSS, and JavaScript — no fram
 
 [![HTML5](https://img.shields.io/badge/HTML-5-e34c26)](https://github.com/Frosty-zod/portfolio) [![CSS3](https://img.shields.io/badge/CSS-3-264de4)](https://github.com/Frosty-zod/portfolio) [![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-f7df1e)](https://github.com/Frosty-zod/portfolio) [![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)](https://github.com/Frosty-zod/portfolio) [![Live Demo](https://img.shields.io/badge/demo-live-2DD4BF)](https://frosty-zod.github.io/portfolio/) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-[![Portfolio preview](portfolio-preview.webp)](https://frosty-zod.github.io/portfolio/)
-
 ## 🚀 Live site
 
 **[frosty-zod.github.io/portfolio](https://frosty-zod.github.io/portfolio/)**
